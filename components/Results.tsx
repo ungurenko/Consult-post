@@ -37,7 +37,7 @@ export const Results: React.FC = () => {
           </div>
 
           <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
-             <FadeIn delay={200}>
+             <FadeIn delay={200} enableParallax>
                <div className="relative max-w-[280px] md:max-w-sm transform rotate-3 hover:rotate-0 transition-transform duration-500">
                  <div className="bg-cream rounded-[2.5rem] border-8 border-white/20 shadow-2xl overflow-hidden">
                     <img 

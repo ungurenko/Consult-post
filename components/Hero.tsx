@@ -50,7 +50,7 @@ export const Hero: React.FC = () => {
         </div>
 
         {/* Carousel Screenshots */}
-        <FadeIn delay={400}>
+        <FadeIn delay={400} enableParallax>
           <div className="relative mx-auto max-w-sm md:max-w-md">
              {/* Decoration */}
              <div className="absolute top-4 -right-6 md:-right-12 w-20 h-20 md:w-24 md:h-24 bg-sage rounded-full flex items-center justify-center transform rotate-12 shadow-sm z-10 border-4 border-cream">
@@ -63,7 +63,7 @@ export const Hero: React.FC = () => {
                <img 
                  src="https://i.imgur.com/iTqZFN5.jpeg"
                  alt="Скриншот карусели"
-                 className="w-full h-auto object-cover"
+                 className="w-full h-auto object-contain"
                />
             </div>
           </div>

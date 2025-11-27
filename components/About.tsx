@@ -8,7 +8,7 @@ export const About: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
           
           {/* Image Column - Editorial Style */}
-          <FadeIn className="relative order-2 md:order-1">
+          <FadeIn className="relative order-2 md:order-1" enableParallax>
             <div className="relative group cursor-none-ish">
                {/* Decorative Frame line */}
                <div className="absolute -inset-4 border border-olive/20 translate-x-4 translate-y-4 transition-transform duration-500 group-hover:translate-x-2 group-hover:translate-y-2 rounded-sm" />
