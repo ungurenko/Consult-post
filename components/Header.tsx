@@ -23,7 +23,7 @@ export const Header: React.FC = () => {
           <a href="#process" className="hover:text-olive transition-colors">Процесс</a>
           <a href="#pricing" className="hover:text-olive transition-colors">Стоимость</a>
         </nav>
-        <a href="#pricing">
+        <a href="https://t.me/m/AZYmwWuEZjgy" target="_blank" rel="noopener noreferrer">
            <Button variant="outline" size="md" className="!py-2 !px-5 !text-xs">
              Записаться
            </Button>

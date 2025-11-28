@@ -40,7 +40,7 @@ export const Hero: React.FC = () => {
                   <span className="text-slate-400 text-xl line-through font-bold">30 000 ₽</span>
                   <span className="text-3xl md:text-4xl font-black text-terracotta">15 000 ₽</span>
                </div>
-              <a href="#pricing">
+              <a href="https://t.me/m/AZYmwWuEZjgy" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" variant="primary" className="shadow-xl shadow-olive/20">
                   Записаться на консультацию
                 </Button>

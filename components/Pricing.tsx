@@ -58,11 +58,15 @@ export const Pricing: React.FC = () => {
             </div>
             
             <div className="flex flex-col gap-5 max-w-xs mx-auto">
-              <Button size="lg" variant="primary" className="w-full shadow-xl">
-                Записаться
-              </Button>
-              <a 
-                href="#" 
+              <a href="https://t.me/m/AZYmwWuEZjgy" target="_blank" rel="noopener noreferrer">
+                <Button size="lg" variant="primary" className="w-full shadow-xl">
+                  Записаться
+                </Button>
+              </a>
+              <a
+                href="https://t.me/m/AZYmwWuEZjgy"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 text-sm font-bold text-olive hover:text-olive-dark transition-colors py-2 group"
               >
                 <MessageCircle size={18} className="group-hover:scale-110 transition-transform" />
