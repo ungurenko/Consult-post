@@ -20,7 +20,7 @@ export const FinalCTA: React.FC = () => {
                 <span className="text-2xl text-slate-400 line-through font-bold">30 000 ₽</span>
                 <span className="text-4xl font-black text-terracotta">15 000 ₽</span>
              </div>
-             <a href="#pricing">
+             <a href="https://t.me/m/AZYmwWuEZjgy" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" variant="primary" className="text-lg px-10 py-5">Записаться сейчас</Button>
              </a>
           </div>
